@@ -8,7 +8,7 @@ The **Recipe Box** is a web application built using the **MERN stack** (MongoDB,
 - **Filter Recipes by Ingredients**
 - **AI-Powered Recipe Suggestions Based on Pantry Ingredients**
 - **Responsive UI**
-- **User Authentication** (if implemented)
+- **User Authentication**
 - **MongoDB Backend**
 
 ## Technologies Used
@@ -16,7 +16,7 @@ The **Recipe Box** is a web application built using the **MERN stack** (MongoDB,
 - **Frontend:** React.js
 - **Backend:** Node.js with Express
 - **Database:** MongoDB
-- **Authentication:** JWT (JSON Web Tokens) (if applicable)
+- **Authentication:** JWT (JSON Web Tokens)
 - **Machine Learning:** Scikit-learn (for recipe suggestions)
 
 ## Installation
@@ -26,7 +26,7 @@ To run the Recipe Box project locally, follow these instructions:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/Recipe-box.git
+git clone https://github.com/nashira26/Recipe-box.git
 cd Recipe-box
 ```
 
@@ -53,7 +53,7 @@ In the root directory of the project, create a .env file and add the following v
 
 ```bash
 MONGO_URI=your_mongo_connection_string
-JWT_SECRET=your_jwt_secret_key  (if applicable)
+JWT_SECRET=your_jwt_secret_key
 ```
 
 ### 5.Run the Development Server
@@ -71,7 +71,7 @@ In the frontend directory, run:
 npm start
 ```
 
-This will start the React development server, and the application will be available at http://localhost:3000 (or the port specified).
+This will start the React development server, and the application will be available at http://localhost:3000
 
 ## Usage
 
@@ -93,7 +93,8 @@ An AI-powered Recipe Suggestion System has been integrated into the Recipe Box a
 
 2. Recipe Prediction:
 
-- The model predicts the most suitable recipes that can be made with the ingredients provided by the user.- - - The trained model is based on a text classification approach, where the system learns patterns between ingredients and recipes.
+- The model predicts the most suitable recipes that can be made with the ingredients provided by the user.
+- The trained model is based on a text classification approach, where the system learns patterns between ingredients and recipes.
 
 3. Model Deployment:
 
